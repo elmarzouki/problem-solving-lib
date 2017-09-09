@@ -5,6 +5,6 @@ core algorithms that will boost your performance
 ```
 .
 └── 001-prime-numbers
-    ├── prime.md
-    └──prime.py
+    ├── README.md
+    └── prime.py
 ```
