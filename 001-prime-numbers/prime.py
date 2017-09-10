@@ -2,10 +2,8 @@
 def SieveofEratosthenes(limit):
     # Initialize the primality list
     primality = [True] * limit
-    # excluding 0, 1 they ain't prime
-    primality[0] = primality[1] = False
-    for i, isPrime in enumerate(primality):
-        if isPrime:
+    for i in range(2, limit):
+        if primality[i]:
             # return the prime number immediately
             yield i
             # mark i-factors non-prime
